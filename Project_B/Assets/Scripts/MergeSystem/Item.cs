@@ -13,5 +13,4 @@ public class Item : MonoBehaviour
         this.id = id;
         this.parentSlot = slot;
     }
-
 }

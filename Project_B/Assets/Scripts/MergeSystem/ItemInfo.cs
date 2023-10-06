@@ -1,3 +1,4 @@
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,8 +9,8 @@ public class ItemInfo : MonoBehaviour
     public int itemId;          //아이템 번호
 
     public void InitDummy(int slotId, int itemId)
-    {//인수로 받은 값을들 Class 쪽에 입력
-       this.slotId = slotId;
-       this.itemId = itemId;   
+    {//인수로 받은 값들읕 Class 쪽에 입력
+        this.slotId = slotId;
+        this.itemId = itemId;
     }
 }
